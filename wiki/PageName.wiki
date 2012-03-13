@@ -23,3 +23,9 @@ This might also be applied to adding blocks to wiki pages, which most users do n
 == Slideshow integration ==
 
 awareNet currently supports both javascript and iframe slideshow views of image galleries, or of images attached to any other object.  Can be added via WYSWYG editor or block to embed a slideshow as one would an image or video.
+
+== Video embed codes ==
+
+These are confusing as they are, and there's not documentation or tips on the site explaining how to embed a video in a project, forum post, comment, blog post, etc.
+
+Propose adding an 'embed' link below the player, similar to how YouTube does. This would bring up a hidden div with instructions and a block tag.  This block tag can then be rewritten contextually if the video must be scaled down (eg, comments in the nav).
