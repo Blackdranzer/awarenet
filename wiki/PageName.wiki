@@ -29,3 +29,7 @@ awareNet currently supports both javascript and iframe slideshow views of image 
 These are confusing as they are, and there's not documentation or tips on the site explaining how to embed a video in a project, forum post, comment, blog post, etc.
 
 Propose adding an 'embed' link below the player, similar to how YouTube does. This would bring up a hidden div with instructions and a block tag.  This block tag can then be rewritten contextually if the video must be scaled down (eg, comments in the nav).
+
+== HTML Trim ==
+
+Extend the HTML parser to remove break tags and empty paragraphs from the beginning and end of text submitted from the WYSWYG editor.  There are a few learners who mash the enter key and leave lots of empty lines (sometimes hundreds) after text they add (blog posts, forum posts).  This messes up list displays and notifications, pushing the next list entry way below the fold.  It may be interesting to discover why they are doing this, since this behavior is observed across time and at different schools.
